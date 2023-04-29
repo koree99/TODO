@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46d7328699.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Todo list</h1>
+            <form class="search">
+                <input type="text" name="search" placeholder="search todos"/>
+            </form>
+        </header>
+
+        <ul class="todos">
+            <li class="group-items">
+                <p>Pray in the Morning</p>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="group-items">
+                <p>Make Breakfast</p>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="group-items">
+                <p>Write Code for 3-5hrs</p>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+        </ul>
+
+        <form class="add">
+            <label class="label">Add a new todo...</label>
+            <br>
+            <input class="form-control" type="text" name="add"/>
+        </form>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
